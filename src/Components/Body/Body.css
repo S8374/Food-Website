@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f4f4f4;
+}
+
+.img-slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.img-slider .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: transform 0.8s ease-in-out, opacity 0.5s ease-in-out;
+  transform: translateX(100%);
+}
+
+.img-slider .slide.active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: transform 0.8s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.img-slider .slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-slider .info {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: white;
+  z-index: 2;
+  text-align: left;
+}
+
+.img-slider .info h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease;
+}
+
+.img-slider .info p {
+  font-size: 16px;
+  width: 60%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 4px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease 0.2s;
+}
+
+.img-slider .slide.active .info h2,
+.img-slider .slide.active .info p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Add your responsive styles */
+@media (max-width: 820px) {
+  .img-slider {
+    height: 375px;
+  }
+
+  .img-slider .info h2 {
+    font-size: 35px;
+  }
+
+  .img-slider .info p {
+    font-size: 15px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 620px) {
+  .img-slider {
+    height: 250px;
+  }
+
+  .img-slider .info h2 {
+    font-size: 30px;
+  }
+
+  .img-slider .info p {
+    font-size: 13px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 420px) {
+  .img-slider {
+    height: 200px;
+  }
+
+  .img-slider .info h2 {
+    font-size: 25px;
+  }
+
+  .img-slider .info p {
+    font-size: 11px;
+    width: 90%;
+  }
+}
