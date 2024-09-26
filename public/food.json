@@ -1,0 +1,202 @@
+[
+    {
+      "id": 1,
+      "foodName": "Cheese Burger",
+      "foodDescription": "A juicy beef patty topped with melted cheese, lettuce, and tomatoes.",
+      "price": 8.99,
+      "foodImg": "https://images.pexels.com/photos/551991/pexels-photo-551991.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.5,
+      "foodDetails": "Served with fries and a side of ketchup. Available in regular and large sizes.",
+      "foodMaker": "Chef John"
+    },
+    {
+      "id": 2,
+      "foodName": "Pepperoni Pizza",
+      "foodDescription": "Classic pizza with pepperoni, mozzarella cheese, and tomato sauce.",
+      "price": 12.99,
+      "foodImg": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.7,
+      "foodDetails": "12-inch pizza with crispy crust and extra cheese option.",
+      "foodMaker": "Chef Maria"
+    },
+    {
+      "id": 3,
+      "foodName": "Caesar Salad",
+      "foodDescription": "Fresh romaine lettuce, croutons, parmesan, and Caesar dressing.",
+      "price": 7.99,
+      "foodImg": "https://images.pexels.com/photos/12557608/pexels-photo-12557608.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.2,
+      "foodDetails": "Available with grilled chicken or shrimp for an additional charge.",
+      "foodMaker": "Chef Emily"
+    },
+    {
+      "id": 4,
+      "foodName": "Spaghetti Carbonara",
+      "foodDescription": "Classic Italian pasta with eggs, cheese, pancetta, and pepper.",
+      "price": 10.99,
+      "foodImg": "https://images.pexels.com/photos/5710170/pexels-photo-5710170.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.8,
+      "foodDetails": "Made with fresh eggs and imported pancetta, served with garlic bread.",
+      "foodMaker": "Chef Luca"
+    },
+    {
+      "id": 5,
+      "foodName": "Chicken Alfredo",
+      "foodDescription": "Grilled chicken served with creamy Alfredo sauce over fettuccine pasta.",
+      "price": 11.99,
+      "foodImg": "https://images.pexels.com/photos/5718025/pexels-photo-5718025.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.4,
+      "foodDetails": "Creamy homemade Alfredo sauce with a hint of garlic.",
+      "foodMaker": "Chef Antonio"
+    },
+    {
+      "id": 6,
+      "foodName": "Sushi Platter",
+      "foodDescription": "Assorted sushi rolls with fresh salmon, tuna, and avocado.",
+      "price": 15.99,
+      "foodImg": "https://images.pexels.com/photos/1893568/pexels-photo-1893568.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.9,
+      "foodDetails": "Includes 12 pieces of sushi, served with soy sauce and wasabi.",
+      "foodMaker": "Chef Sato"
+    },
+    {
+      "id": 7,
+      "foodName": "BBQ Cow",
+      "foodDescription": "Tender pork ribs glazed with smoky barbecue sauce, served with coleslaw.",
+      "price": 18.99,
+      "foodImg": "https://images.pexels.com/photos/28573008/pexels-photo-28573008/free-photo-of-delicious-asian-fusion-bowl-with-grilled-skewers.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.6,
+      "foodDetails": "Slow-cooked to perfection, with a choice of spicy or sweet BBQ sauce.",
+      "foodMaker": "Chef Mike"
+    },
+    {
+      "id": 8,
+      "foodName": "Vegetable Stir Fry",
+      "foodDescription": "Mixed vegetables sautéed with soy sauce, served over rice.",
+      "price": 9.99,
+      "foodImg": "https://images.pexels.com/photos/2827263/pexels-photo-2827263.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.3,
+      "foodDetails": "Includes broccoli, carrots, bell peppers, and mushrooms, with a side of steamed rice.",
+      "foodMaker": "Chef Lee"
+    },
+    {
+      "id": 9,
+      "foodName": "Tacos",
+      "foodDescription": "Three soft tacos filled with seasoned beef, lettuce, cheese, and salsa.",
+      "price": 6.99,
+      "foodImg": "https://images.pexels.com/photos/4958773/pexels-photo-4958773.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.5,
+      "foodDetails": "Served with a side of tortilla chips and salsa.",
+      "foodMaker": "Chef Carlos"
+    },
+    {
+      "id": 10,
+      "foodName": "Grilled Salmon",
+      "foodDescription": "Perfectly grilled salmon fillet served with lemon and asparagus.",
+      "price": 14.99,
+      "foodImg": "https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.8,
+      "foodDetails": "Wild-caught salmon, lightly seasoned with herbs and spices.",
+      "foodMaker": "Chef Ingrid"
+    },
+    {
+      "id": 11,
+      "foodName": "Chicken Wings",
+      "foodDescription": "Crispy chicken wings served with buffalo sauce and blue cheese dip.",
+      "price": 9.49,
+      "foodImg": "https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.7,
+      "foodDetails": "Choice of mild, hot, or extra spicy buffalo sauce.",
+      "foodMaker": "Chef Jackson"
+    },
+    {
+      "id": 12,
+      "foodName": "Pancakes",
+      "foodDescription": "Fluffy pancakes served with maple syrup and butter.",
+      "price": 5.99,
+      "foodImg": "https://images.pexels.com/photos/718739/pexels-photo-718739.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.4,
+      "foodDetails": "Available with blueberries, chocolate chips, or banana slices.",
+      "foodMaker": "Chef Sarah"
+    },
+    {
+      "id": 13,
+      "foodName": "Steak",
+      "foodDescription": "Grilled sirloin steak served with mashed potatoes and green beans.",
+      "price": 19.99,
+      "foodImg": "https://images.pexels.com/photos/28559491/pexels-photo-28559491/free-photo-of-elegant-plate-of-sliced-steak-with-vegetables.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.9,
+      "foodDetails": "Cooked to your preference: rare, medium, or well-done.",
+      "foodMaker": "Chef Gordon"
+    },
+    {
+      "id": 14,
+      "foodName": "Veggie Burger",
+      "foodDescription": "A plant-based patty with lettuce, tomatoes, and vegan cheese.",
+      "price": 9.99,
+      "foodImg": "https://images.pexels.com/photos/6546029/pexels-photo-6546029.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.5,
+      "foodDetails": "Served with sweet potato fries and vegan mayo.",
+      "foodMaker": "Chef Jane"
+    },
+    {
+      "id": 15,
+      "foodName": "Fish Tacos",
+      "foodDescription": "Grilled fish tacos served with cabbage slaw and lime crema.",
+      "price": 8.49,
+      "foodImg": "https://images.pexels.com/photos/27603294/pexels-photo-27603294/free-photo-of-authentic-mexican-food.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.6,
+      "foodDetails": "Choice of cod or tilapia, with a side of salsa verde.",
+      "foodMaker": "Chef Ricardo"
+    },
+    {
+      "id": 16,
+      "foodName": "Lasagna",
+      "foodDescription": "Layers of pasta, meat sauce, ricotta, and mozzarella cheese.",
+      "price": 13.99,
+      "foodImg": "https://images.pexels.com/photos/5864352/pexels-photo-5864352.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.8,
+      "foodDetails": "Served with a side of garlic bread and house salad.",
+      "foodMaker": "Chef Sofia"
+    },
+    {
+      "id": 17,
+      "foodName": "French Fries",
+      "foodDescription": "Crispy golden fries served with ketchup.",
+      "price": 3.99,
+      "foodImg": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.3,
+      "foodDetails": "Available with cheese or chili toppings for an additional charge.",
+      "foodMaker": "Chef Alex"
+    },
+    {
+      "id": 18,
+      "foodName": "Ice Cream Sundae",
+      "foodDescription": "Vanilla ice cream topped with chocolate syrup, nuts, and a cherry.",
+      "price": 4.99,
+      "foodImg": "https://images.pexels.com/photos/12941956/pexels-photo-12941956.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.7,
+      "foodDetails": "Choose from chocolate, strawberry, or caramel toppings.",
+      "foodMaker": "Chef Nina"
+    },
+    {
+      "id": 19,
+      "foodName": "Buffalo Chicken Sandwich",
+      "foodDescription": "Spicy buffalo chicken breast with lettuce and ranch on a toasted bun.",
+      "price": 9.49,
+      "foodImg": "https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.5,
+      "foodDetails": "Served with a side of fries or onion rings.",
+      "foodMaker": "Chef Brian"
+    },
+    {
+      "id": 20,
+      "foodName": "Clam Chowder",
+      "foodDescription": "Creamy clam chowder with potatoes, onions, and celery.",
+      "price": 7.99,
+      "foodImg": "https://images.pexels.com/photos/27821123/pexels-photo-27821123/free-photo-of-oyster-bar.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "foodReviews": 4.4,
+      "foodDetails": "Served with oyster crackers and a side of bread.",
+      "foodMaker": "Chef Sophia"
+    }
+  ]
